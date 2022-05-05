@@ -1,74 +1,74 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Page2",
+    "slug": "page2",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1290,
+          "bottomRow": 830,
           "containerStyle": "none",
-          "snapRows": 125,
+          "snapRows": 83,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 57,
-          "minHeight": 1292,
+          "minHeight": 840,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
             {
-              "widgetName": "Button1",
-              "onClick": "{{navigateTo('Page2', {})}}",
-              "buttonColor": "#03B365",
-              "displayName": "Button",
-              "iconSVG": "/static/media/icon.cca02633.svg",
-              "topRow": 38,
-              "bottomRow": 42,
+              "widgetName": "CurrencyInput1",
+              "displayName": "Currency Input",
+              "iconSVG": "/static/media/icon.f312efcb.svg",
+              "topRow": 24,
+              "bottomRow": 28,
+              "defaultCurrencyCode": "USD",
               "parentRowSpace": 10,
-              "type": "BUTTON_WIDGET",
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "CURRENCY_INPUT_WIDGET",
               "hideCard": false,
               "animateLoading": true,
-              "parentColumnSpace": 16.3125,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onClick"
-                }
-              ],
-              "leftColumn": 40,
-              "dynamicBindingPathList": [],
-              "text": "Submit",
+              "parentColumnSpace": 20.8125,
+              "resetOnSubmit": true,
+              "leftColumn": 22,
+              "labelPosition": "Left",
+              "labelStyle": "",
               "isDisabled": false,
-              "key": "bnynjiqtx3",
-              "rightColumn": 56,
-              "isDefaultClickDisabled": true,
-              "widgetId": "7blne8j4pw",
+              "key": "ekrvwi1sxr",
+              "isRequired": false,
+              "rightColumn": 42,
+              "widgetId": "cne67oa7ow",
               "isVisible": true,
-              "recaptchaType": "V3",
+              "label": "Label",
+              "allowCurrencyChange": false,
               "version": 1,
               "parentId": "0",
+              "labelAlignment": "left",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "buttonVariant": "PRIMARY",
-              "placement": "CENTER"
+              "decimals": 0,
+              "iconAlign": "left",
+              "defaultText": ""
             }
           ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
-          "Button1",
+          "CurrencyInput1",
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Page2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -79,5 +79,5 @@
   },
   "deleted": false,
   "policies": [],
-  "gitSyncId": "6273da555984be5f5784717d_6273da555984be5f5784717f"
+  "gitSyncId": "6273da555984be5f5784717d_6273dc075984be5f578471c5"
 }
